@@ -27,5 +27,13 @@
             </intent-filter>
         </service>
 
+        <activity
+            android:name=".taskmanager.TaskManagerActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:showOnLockScreen="true" />
+
     </application>
 </manifest>
